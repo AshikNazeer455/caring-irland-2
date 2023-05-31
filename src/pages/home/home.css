@@ -1,0 +1,67 @@
+.serviceIntro[_ngcontent-dln-c4] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.serviceIntro[_ngcontent-dln-c4] .serviceImage[_ngcontent-dln-c4] {
+    width: 60%;
+    height: auto;
+    float: left;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.serviceIntro[_ngcontent-dln-c4] .serviceImage[_ngcontent-dln-c4] img[_ngcontent-dln-c4] {
+    width: 100%;
+    height: auto;
+}
+.serviceIntro[_ngcontent-dln-c4] .ServiceSummary[_ngcontent-dln-c4] {
+    width: 45%;
+    height: auto;
+    background-color: #eee;
+    z-index: 1;
+    position: absolute;
+    padding: 3rem;
+    border-radius: 2rem;
+    right: 4rem;
+}
+
+.serviceIntro[_ngcontent-dln-c4] .ServiceSummary[_ngcontent-dln-c4] ul[_ngcontent-dln-c4] {
+    margin-left: 0.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+
+    
+}
+
+.serviceIntro[_ngcontent-dln-c4] .ServiceSummary[_ngcontent-dln-c4] h1[_ngcontent-dln-c4] {
+    font-family: 'Roboto', sans-serif;
+    color: #ed6b20;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .serviceIntro[_ngcontent-dln-c4] {
+      flex-direction: column;
+      padding: 2rem;
+    }
+  
+    .serviceIntro[_ngcontent-dln-c4] .serviceImage[_ngcontent-dln-c4] {
+      width: 100%;
+      float: none;
+      margin-bottom: 2rem;
+    }
+  
+    .serviceIntro[_ngcontent-dln-c4] .ServiceSummary[_ngcontent-dln-c4] {
+      width: 100%;
+      position: static;
+      padding: 2rem;
+      margin-top: 1rem;
+      right: initial;
+      left: initial;
+    }
+  }
+
+  

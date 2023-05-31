@@ -1,0 +1,631 @@
+
+/* footer grid csss start */
+
+
+  .footerContact[_ngcontent-iof-c8] {
+    margin: 4rem;
+    background: linear-gradient(180deg, #0a0064 0%, #80c2c7 25%, #0a0064 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(16, 1fr);
+    border-radius: 2rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] {
+    grid-row: span 9;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 2.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+  }
+
+  .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] .footerPageLink[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] .socialLink[_ngcontent-iof-c8] {
+    width: 1.625rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] .socialLink[_ngcontent-iof-c8] img[_ngcontent-iof-c8] {
+    width: 100%;
+    height: auto
+  }
+
+  .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] {
+    grid-row: span 7;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 2.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+  }
+
+  .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Hind Madurai, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-decoration: none
+  }
+
+  .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] {
+    grid-row: span 7;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 2.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+  }
+
+  .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Hind Madurai, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-decoration: none;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: block;
+    width: 100%
+  }
+
+  .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] {
+    grid-row: span 9;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 2.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+  }
+
+  .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem
+  }
+
+  .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%
+  }
+
+  .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneName[_ngcontent-iof-c8] .Designation[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Hind Madurai, sans-serif;
+    font-size: 1rem;
+    font-weight: 300
+  }
+
+  .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneName[_ngcontent-iof-c8] .personName[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Hind Madurai, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500
+  }
+
+  .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneNumber[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+    color: #fff;
+    font-family: Hind Madurai, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-decoration: none
+  }
+
+@media screen and (max-width: 1100px) {
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 1rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .firstphoneItem[_ngcontent-iof-c8] {
+      border-bottom: 1px dashed #fff;
+      padding-bottom: 1rem
+    }
+  }
+
+@media screen and (max-width:768px) {
+   
+
+    .footerContact[_ngcontent-iof-c8] {
+      grid-template-columns: 50% 50%
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] {
+      padding: 2rem 3rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] {
+      gap: 2rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] .footerPageLink[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] .socialLink[_ngcontent-iof-c8] {
+      width: 1.5rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] {
+      padding: 2rem 3rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+      font-size: 1rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] {
+      padding: 2rem 3rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+      font-size: 1rem;
+      word-wrap: break-word
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] {
+      padding: 2rem 3rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneName[_ngcontent-iof-c8] .Designation[_ngcontent-iof-c8] {
+      font-size: .875rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneName[_ngcontent-iof-c8] .personName[_ngcontent-iof-c8] {
+      font-size: 1.075rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneNumber[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+      font-size: 1.1rem
+    }
+
+   
+  }
+
+  @media screen and (max-width: 500px) {
+  
+    .footerContact[_ngcontent-iof-c8] {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(auto, auto)
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] {
+      padding: 2.5rem 4rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8]:last-child {
+      margin-bottom: 0rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] {
+      padding: 2.5rem 4rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+      font-size: 1.5rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] {
+      padding: 2.5rem 4rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+      font-size: 1.5rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] {
+      padding: 2.5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] h2[_ngcontent-iof-c8] {
+      font-size: 1.5rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneName[_ngcontent-iof-c8] .Designation[_ngcontent-iof-c8] {
+      font-size: 1rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneName[_ngcontent-iof-c8] .personName[_ngcontent-iof-c8] {
+      font-size: 1.375rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] .PhoneNumber[_ngcontent-iof-c8] a[_ngcontent-iof-c8] {
+      font-size: 1.25rem
+    }
+  }
+
+  @media screen and (max-width:400px) {
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] {
+      padding: 2rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8] .footerLinkrow[_ngcontent-iof-c8] {
+      gap: 2rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8],
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8],
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] {
+      padding: 2rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .PhoneItem[_ngcontent-iof-c8] {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 1rem
+    }
+
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8] .firstphoneItem[_ngcontent-iof-c8] {
+      border-bottom: 1px dashed #fff;
+      padding-bottom: 1rem
+    }
+  }
+
+
+@media screen and (max-width:330px) {
+
+    .footerContact[_ngcontent-iof-c8] .footernavlinkContainer[_ngcontent-iof-c8],
+    .footerContact[_ngcontent-iof-c8] .AddressContainer[_ngcontent-iof-c8],
+    .footerContact[_ngcontent-iof-c8] .PhoneContainer[_ngcontent-iof-c8],
+    .footerContact[_ngcontent-iof-c8] .EmailContainer[_ngcontent-iof-c8] {
+      max-width: 100%;
+      overflow: hidden
+    }
+
+    .footerContact[_ngcontent-iof-c8] {
+      margin: 2rem
+    }
+
+  
+  }
+
+
+
+  /* footer grid csss end */
+
+
+
+
+
+/* contact us start */
+
+
+
+
+
+ /* { contact with image} */
+
+
+
+ .clientContact[_ngcontent-erl-c8] {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/support.png)
+         
+  }
+  
+  .clientContact[_ngcontent-erl-c8] p[_ngcontent-erl-c8] {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 1rem;
+  
+  }
+
+  .clientContact[_ngcontent-erl-c8] p[_ngcontent-erl-c8]:nth-child(2n) {
+    margin-bottom: 2rem
+  }
+
+  .clientContact[_ngcontent-erl-c8] a[_ngcontent-erl-c8] {
+    padding: 1rem 4rem;
+    background-color: #0000;
+    border: 2px solid #FBD061;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.125rem;
+    text-decoration: none
+  }
+
+
+  @media screen and (max-width:768px) {
+    .clientContact[_ngcontent-erl-c8] p[_ngcontent-erl-c8] {
+      font-size: 1.125rem
+    }
+
+    .clientContact[_ngcontent-erl-c8] p[_ngcontent-erl-c8]:nth-child(2n) {
+      margin-bottom: 2rem
+    }
+
+    .clientListContainer[_ngcontent-erl-c8] h1[_ngcontent-erl-c8] {
+      font-size: 1.75rem
+    }
+
+    .clientListContainer[_ngcontent-erl-c8] .clientList[_ngcontent-erl-c8] {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 4rem;
+      gap: 4rem;
+      margin-top: 4rem
+    }
+
+   
+    .clientListContainer[_ngcontent-erl-c8] .clientList[_ngcontent-erl-c8] .clientItem[_ngcontent-erl-c8]:first-child {
+      margin-left: 0rem
+    }
+  }
+
+
+
+
+  @media screen and (max-width:330px) {
+
+   
+
+   
+    .clientListContainer[_ngcontent-erl-c8],
+    .clientContact[_ngcontent-erl-c8] {
+      padding: 2rem
+    }
+  }
+
+
+
+ /* { contact with image} */
+
+
+
+
+ 
+
+
+
+  .AboutUsHero[_ngcontent-mbd-c10] {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    margin: 6rem 4rem 2rem;
+    height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box
+  }
+
+  .AboutUsHero[_ngcontent-mbd-c10] h1[_ngcontent-mbd-c10] {
+    font-family: Lora, serif;
+    font-size: 3rem;
+    font-weight: 600
+  }
+
+.serviceIntro[_ngcontent-mbd-c10] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10] .serviceImage[_ngcontent-mbd-c10] {
+    width: 70%;
+    height: 25rem;
+    float: left;
+    border-radius: 2rem;
+    overflow: hidden
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10] .serviceImage[_ngcontent-mbd-c10] img[_ngcontent-mbd-c10] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10] .ServiceSummary[_ngcontent-mbd-c10] {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    background-color: #e3e3e3;
+    z-index: 1;
+    position: absolute;
+    padding: 3rem;
+    border-radius: 2rem;
+    right: 4rem;
+    color: #000;
+    transition: all .7s ease-out;
+    background: linear-gradient(0deg, #005864, #9FC93A, rgba(227, 227, 227, 1), rgba(227, 227, 227, 1));
+    background-size: 300% 300%;
+    background-position: 50% 1%
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10] .ServiceSummaryshadow[_ngcontent-mbd-c10] {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    z-index: 0;
+    position: absolute;
+    padding: 3rem;
+    border-radius: 2rem;
+    right: 3.75rem;
+    margin-top: .5rem;
+    color: #000;
+    background-image: linear-gradient(0deg, #005864, #9FC93A)
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10]:nth-child(2) .ServiceSummary[_ngcontent-mbd-c10] {
+    background: linear-gradient(0deg, #C12B27, #ED1867, rgba(227, 227, 227, 1), rgba(227, 227, 227, 1));
+    background-size: 300% 300%;
+    background-position: 50% 1%
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10]:nth-child(3) .ServiceSummary[_ngcontent-mbd-c10] {
+    background: linear-gradient(0deg, #EE3328, #FDB614, rgba(227, 227, 227, 1), rgba(227, 227, 227, 1));
+    background-size: 300% 300%;
+    background-position: 50% 1%
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10]:nth-child(4) .ServiceSummary[_ngcontent-mbd-c10] {
+    background: linear-gradient(0deg, #69B0C7, #EEA520, rgba(227, 227, 227, 1), rgba(227, 227, 227, 1));
+    background-size: 300% 300%;
+    background-position: 50% 1%
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10]:nth-child(2) .ServiceSummaryshadow[_ngcontent-mbd-c10] {
+    background: linear-gradient(0deg, #C12B27, #ED1867)
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10]:nth-child(3) .ServiceSummaryshadow[_ngcontent-mbd-c10] {
+    background: linear-gradient(0deg, #EE3328, #FDB614)
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10]:nth-child(4) .ServiceSummaryshadow[_ngcontent-mbd-c10] {
+    background: linear-gradient(0deg, #69B0C7, #EEA520)
+  }
+
+  .serviceIntro[_ngcontent-mbd-c10] .ServiceSummary[_ngcontent-mbd-c10]:hover {
+    background-position: 50% 99%;
+    color: #fff
+  }
+
+
+
+
+  .serviceIntro[_ngcontent-mbd-c10] .ServiceSummary[_ngcontent-mbd-c10] p[_ngcontent-mbd-c10] {
+    font-size: 1.5rem;
+    font-family: Hind Madurai, sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    text-transform: capitalize
+  }
+  @media screen and (max-width: 1024px) {
+    .serviceIntro[_ngcontent-mbd-c10] {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 1rem;
+    }
+  
+    .serviceIntro[_ngcontent-mbd-c10] .serviceImage[_ngcontent-mbd-c10] {
+      width: 100%;
+      height: auto;
+      border-radius: 2rem;
+    }
+  
+    .serviceIntro[_ngcontent-mbd-c10] .ServiceSummary[_ngcontent-mbd-c10]
+     {
+      width: 100%;
+      position: relative;
+      padding: 2rem;
+      right: initial;
+      left: initial;
+      margin-top: 1rem;
+    
+    }
+    .serviceIntro[_ngcontent-mbd-c10] .ServiceSummaryshadow[_ngcontent-mbd-c10]
+    {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1600px){
+    .serviceIntro[_ngcontent-mbd-c10] .ServiceSummaryshadow[_ngcontent-mbd-c10]
+    {
+      display: none;
+    }
+  }
+
+
+ 
+
+
+
+

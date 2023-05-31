@@ -1,0 +1,212 @@
+.aboutUsSummary[_ngcontent-dln-c4] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem;
+    grid-gap: 2rem;
+    gap: 2rem;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .AboutUsContent[_ngcontent-dln-c4] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .AboutUsContent[_ngcontent-dln-c4] h1[_ngcontent-dln-c4] {
+    font-family:'Roboto', sans-serif ;
+    font-size: 4rem;
+    color: #ed8320;
+    margin-bottom: 1rem;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .AboutUsContent[_ngcontent-dln-c4] p[_ngcontent-dln-c4] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] .colorrectangle[_ngcontent-dln-c4] {
+    grid-row: span 1;
+    background-color: #ed2024;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] .imgrect[_ngcontent-dln-c4] {
+    grid-row: span 3;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] .imgrect[_ngcontent-dln-c4] {
+    grid-row: span 3;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] .imgrect[_ngcontent-dln-c4] {
+    grid-row: span 3;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] .imgrect[_ngcontent-dln-c4] img[_ngcontent-dln-c4] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutUsSummary[_ngcontent-dln-c4] .aboutusImageGrid[_ngcontent-dln-c4] .imgrect[_ngcontent-dln-c4] img[_ngcontent-dln-c4] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.AboutUsHero h1{
+    font-size: bolder;
+    color: #ed8320;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+}
+.Our-mission{
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('../../images/serv.png');
+
+    padding: 10rem;
+}
+.our-mission-paragraph h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    
+
+}
+.our-mission-paragraph p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family:'Roboto', sans-serif;
+    color: white;
+
+}
+.our-visson{
+    padding:4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
+    gap:2rem
+    
+}
+
+
+
+.Our-vission-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+
+.Our-vission-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color: #ed8320;
+}
+
+.Our-vission-content p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family:'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+
+
+}
+@media screen and (max-width: 768px) {
+    .Our-mission {
+      padding: 6rem;
+    }
+  
+    .our-visson {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+  
+    .Our-vission-content h1 {
+      font-size: 3rem;
+    }
+  
+    .Our-vission-content p {
+      font-size: 1.25rem;
+      
+    }
+  }
+  @media (max-width: 1024px) {
+    .our-visson {
+      grid-template-columns: 1fr;
+      padding: 2rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .our-visson {
+      padding: 1rem;
+    }
+  
+    .Our-vission-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .Our-vission-content p {
+      font-size: 1rem;
+    }
+  }
+.aboutus-content {
+    text-align: center;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-paragraph{
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
+.aboutus-paragraph p{
+    font-family:'Roboto', sans-serif ;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.aboutus-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color:#ed8320;
+
+}
+.AboutUsHero[_ngcontent-odv-c10] {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    height: calc(100vh );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(../../images/team-young-specialist-doctors-standing-corridor-hospital.jpg);
+    animation: grow infinite alternate ease-in-out 8s;
+
+}
+@keyframes grow {
+    0% {
+      background-size: 100%;
+    }
+    100% {
+      background-size: 150%;
+    }
+  }

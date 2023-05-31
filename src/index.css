@@ -1,0 +1,17 @@
+*,*::before,**::after{
+    margin:0;
+    padding:0;
+    border:0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+}
+.container{
+    width:var(--cointainer-width-lg);
+    max-width:1920px;
+    margin-inline:auto;
+}
+
